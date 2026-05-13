@@ -1,1 +1,1 @@
-This project is a lab for testing 
+This project is a lab for testings
