@@ -30,3 +30,8 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+test('The peek button should exist on the page', async () => {
+    let peekButton = await driver.findElement(By.id('peek'));
+    expect(peekButton).toBeDefined();
+});
